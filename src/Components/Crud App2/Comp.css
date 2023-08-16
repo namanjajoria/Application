@@ -1,0 +1,55 @@
+.input{
+    outline:none;
+}
+.button:focus{
+    box-shadow: none;
+}
+table{
+    border-collapse:separate;
+    min-width:max-content;
+    color: white;
+    text-align: left;
+    border-spacing: 0px;
+    border: 2px solid white;
+    scroll-behavior:smooth;
+}
+.table-container{
+    overflow-x: auto;
+}
+tr{
+    border: 1px solid white;
+}
+/* ::-webkit-scrollbar{
+    width: 2vw;
+}
+::-webkit-scrollbar-track{
+    background-color:red;
+} */
+.box1{
+   height: 100vh;
+}
+.box2{
+    height: 80vh;
+    border-radius: 10%;
+}
+.box3{
+    background-color: rgb(103, 235, 191);
+    height: 100vh;
+}
+
+@media screen and (max-width:500px) {
+    .input{
+        width: 45vw;
+    }
+    .box2{
+        height: 90vh;
+    }
+    .box1{
+        padding:0px 30px 0px 30px;
+    }
+    .box3{
+        padding:0px 30px 0px 30px;
+    }
+}
+   
+   
